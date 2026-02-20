@@ -53,6 +53,10 @@ terraform apply
 - `jamesyc.com` → `1589ca8b5998db003314eb07ce8fb95e`
 - `002015.xyz` → `8e1205e94e1c8d8c5b876aac286f08bd`
 
+## Gotchas
+
+- Do **not** have `CLOUDFLARE_API_KEY` exported in your shell when running Terraform. The provider will try to use API key auth (which requires `CLOUDFLARE_EMAIL`) instead of the API token in `terraform.tfvars`, and will error. Run `unset CLOUDFLARE_API_KEY` first if needed.
+
 ## Notes
 
 - `imports.tf` contains import blocks used to bring existing Cloudflare records into Terraform state on first apply
