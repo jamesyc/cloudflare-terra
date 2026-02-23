@@ -4,6 +4,21 @@ Terraform config for managing Cloudflare DNS across two domains:
 - `jamesyc.com`
 - `002015.xyz`
 
+## First time setup (Mac)
+
+Install `cf-terraforming`, a Cloudflare CLI tool that can export existing Cloudflare resources as Terraform config (useful if you need to re-import or add new zones):
+
+```
+brew install cf-terraforming
+```
+
+Install Terraform via Hashicorp's official Homebrew tap:
+
+```
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+```
+
 ## Prerequisites
 
 - [Terraform](https://developer.hashicorp.com/terraform/install) >= 1.5
