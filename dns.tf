@@ -455,6 +455,15 @@ resource "cloudflare_record" "terraform_managed_resource_b5e1b625c4cd5fee24ce659
   zone_id = "8e1205e94e1c8d8c5b876aac286f08bd"
 }
 
+resource "cloudflare_record" "pastefy_002015_xyz" {
+  content = "144.24.16.36"
+  name    = "pastefy"
+  proxied = false
+  ttl     = 1
+  type    = "A"
+  zone_id = "8e1205e94e1c8d8c5b876aac286f08bd"
+}
+
 resource "cloudflare_record" "terraform_managed_resource_0bd716bea99fb327c5bb755e4e0119ad_8" {
   content = "144.24.16.36"
   name    = "plex"
