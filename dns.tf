@@ -260,6 +260,15 @@ resource "cloudflare_record" "terraform_managed_resource_ed09a192d1adaa74bee5c33
   zone_id = "1589ca8b5998db003314eb07ce8fb95e"
 }
 
+resource "cloudflare_record" "pastefy_jamesyc_com" {
+  content = "144.24.16.36"
+  name    = "pastefy"
+  proxied = false
+  ttl     = 1
+  type    = "A"
+  zone_id = "1589ca8b5998db003314eb07ce8fb95e"
+}
+
 resource "cloudflare_record" "terraform_managed_resource_6234e426fb3521d3488ce05a253df51b_29" {
   content = "144.24.16.36"
   name    = "vdoninja"
@@ -567,4 +576,3 @@ resource "cloudflare_record" "terraform_managed_resource_f3612a381e0d16c8d174a5c
   type    = "TXT"
   zone_id = "8e1205e94e1c8d8c5b876aac286f08bd"
 }
-
