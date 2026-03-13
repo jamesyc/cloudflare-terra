@@ -1,27 +1,9 @@
 # Zone: jamesyc.com (1589ca8b5998db003314eb07ce8fb95e)
-resource "cloudflare_record" "terraform_managed_resource_2876bcacf7e67b35ecd5feb985119a49_0" {
-  content = "144.24.16.36"
-  name    = "agentzero"
-  proxied = false
-  ttl     = 1
-  type    = "A"
-  zone_id = "1589ca8b5998db003314eb07ce8fb95e"
-}
-
 resource "cloudflare_record" "terraform_managed_resource_770205bf13e3851489ad77ea26f9c83a_1" {
   content = "144.24.16.36"
   name    = "audiobookshelf"
   proxied = false
   ttl     = 1
-  type    = "A"
-  zone_id = "1589ca8b5998db003314eb07ce8fb95e"
-}
-
-resource "cloudflare_record" "terraform_managed_resource_5b9da6f475e652dabf0d025c3fe4ab5b_2" {
-  content = "144.24.16.36"
-  name    = "auth.lobechat"
-  proxied = false
-  ttl     = 60
   type    = "A"
   zone_id = "1589ca8b5998db003314eb07ce8fb95e"
 }
@@ -47,15 +29,6 @@ resource "cloudflare_record" "terraform_managed_resource_05ec3e36b2a98847400c2ae
 resource "cloudflare_record" "terraform_managed_resource_1e7973234440ec653ba8e479b36539a6_5" {
   content = "107.190.244.41"
   name    = "home"
-  proxied = false
-  ttl     = 1
-  type    = "A"
-  zone_id = "1589ca8b5998db003314eb07ce8fb95e"
-}
-
-resource "cloudflare_record" "terraform_managed_resource_a9810eb028315bc8cafdfe5c79b07977_6" {
-  content = "144.24.16.36"
-  name    = "inbox-zero"
   proxied = false
   ttl     = 1
   type    = "A"
@@ -89,54 +62,9 @@ resource "cloudflare_record" "terraform_managed_resource_4922ef6c78daa41877f6739
   zone_id = "1589ca8b5998db003314eb07ce8fb95e"
 }
 
-resource "cloudflare_record" "terraform_managed_resource_28622a5c1cc6d4fada57a93998fd4de1_10" {
-  content = "144.24.16.36"
-  name    = "linkwarden"
-  proxied = false
-  ttl     = 1
-  type    = "A"
-  zone_id = "1589ca8b5998db003314eb07ce8fb95e"
-}
-
-resource "cloudflare_record" "terraform_managed_resource_3e624d0e0e86c47846efeb70bab59cc9_11" {
-  content = "144.24.16.36"
-  name    = "lobechat"
-  proxied = false
-  ttl     = 60
-  type    = "A"
-  zone_id = "1589ca8b5998db003314eb07ce8fb95e"
-}
-
-resource "cloudflare_record" "terraform_managed_resource_745f026045824dee3e3d5ccac5230201_12" {
-  content = "144.24.16.36"
-  name    = "minio.lobechat"
-  proxied = false
-  ttl     = 60
-  type    = "A"
-  zone_id = "1589ca8b5998db003314eb07ce8fb95e"
-}
-
-resource "cloudflare_record" "terraform_managed_resource_c2368f475d9ef72770c4ef98ec174040_13" {
-  content = "144.24.16.36"
-  name    = "minio-ui.lobechat"
-  proxied = false
-  ttl     = 60
-  type    = "A"
-  zone_id = "1589ca8b5998db003314eb07ce8fb95e"
-}
-
 resource "cloudflare_record" "terraform_managed_resource_ad98b9aa667b28d421300b4778ab3fb0_14" {
   content = "144.24.16.36"
   name    = "n8n"
-  proxied = false
-  ttl     = 1
-  type    = "A"
-  zone_id = "1589ca8b5998db003314eb07ce8fb95e"
-}
-
-resource "cloudflare_record" "terraform_managed_resource_0329cc875c4d8c9ad7ca8c71f694a290_15" {
-  content = "144.24.16.36"
-  name    = "onyx"
   proxied = false
   ttl     = 1
   type    = "A"
@@ -165,15 +93,6 @@ resource "cloudflare_record" "terraform_managed_resource_baea5707c91aad8093381e5
   content = "144.24.16.36"
   name    = "openwebui"
   proxied = false
-  ttl     = 1
-  type    = "A"
-  zone_id = "1589ca8b5998db003314eb07ce8fb95e"
-}
-
-resource "cloudflare_record" "terraform_managed_resource_4287539ddecaef84730795be50035926_19" {
-  content = "144.24.16.36"
-  name    = "overseerr"
-  proxied = true
   ttl     = 1
   type    = "A"
   zone_id = "1589ca8b5998db003314eb07ce8fb95e"
@@ -209,15 +128,6 @@ resource "cloudflare_record" "terraform_managed_resource_9bed2d86a584444e43c10e1
 resource "cloudflare_record" "terraform_managed_resource_58d766ab0c53f53b0bd16ae88f0ce303_23" {
   content = "144.24.16.36"
   name    = "rot13"
-  proxied = false
-  ttl     = 1
-  type    = "A"
-  zone_id = "1589ca8b5998db003314eb07ce8fb95e"
-}
-
-resource "cloudflare_record" "terraform_managed_resource_744b86a49a9f615be94e7a742f7b67df_24" {
-  content = "144.24.16.36"
-  name    = "rustdesk"
   proxied = false
   ttl     = 1
   type    = "A"
@@ -395,15 +305,6 @@ resource "cloudflare_record" "terraform_managed_resource_f09461205e5d7a1adda2048
 resource "cloudflare_record" "terraform_managed_resource_2e662b3045854371f37ac7b550fb9a7d_2" {
   content = "144.24.16.36"
   name    = "librechat"
-  proxied = false
-  ttl     = 1
-  type    = "A"
-  zone_id = "8e1205e94e1c8d8c5b876aac286f08bd"
-}
-
-resource "cloudflare_record" "terraform_managed_resource_9764d462e5822e60e5d7b26d5116f531_3" {
-  content = "144.24.16.36"
-  name    = "lobechat"
   proxied = false
   ttl     = 1
   type    = "A"

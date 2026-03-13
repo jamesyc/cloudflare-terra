@@ -1,16 +1,6 @@
 import {
-  to = cloudflare_record.terraform_managed_resource_2876bcacf7e67b35ecd5feb985119a49_0
-  id = "1589ca8b5998db003314eb07ce8fb95e/2876bcacf7e67b35ecd5feb985119a49"
-}
-
-import {
   to = cloudflare_record.terraform_managed_resource_770205bf13e3851489ad77ea26f9c83a_1
   id = "1589ca8b5998db003314eb07ce8fb95e/770205bf13e3851489ad77ea26f9c83a"
-}
-
-import {
-  to = cloudflare_record.terraform_managed_resource_5b9da6f475e652dabf0d025c3fe4ab5b_2
-  id = "1589ca8b5998db003314eb07ce8fb95e/5b9da6f475e652dabf0d025c3fe4ab5b"
 }
 
 import {
@@ -29,11 +19,6 @@ import {
 }
 
 import {
-  to = cloudflare_record.terraform_managed_resource_a9810eb028315bc8cafdfe5c79b07977_6
-  id = "1589ca8b5998db003314eb07ce8fb95e/a9810eb028315bc8cafdfe5c79b07977"
-}
-
-import {
   to = cloudflare_record.terraform_managed_resource_b4893eafb74865c309fccee528a817c0_7
   id = "1589ca8b5998db003314eb07ce8fb95e/b4893eafb74865c309fccee528a817c0"
 }
@@ -49,33 +34,8 @@ import {
 }
 
 import {
-  to = cloudflare_record.terraform_managed_resource_28622a5c1cc6d4fada57a93998fd4de1_10
-  id = "1589ca8b5998db003314eb07ce8fb95e/28622a5c1cc6d4fada57a93998fd4de1"
-}
-
-import {
-  to = cloudflare_record.terraform_managed_resource_3e624d0e0e86c47846efeb70bab59cc9_11
-  id = "1589ca8b5998db003314eb07ce8fb95e/3e624d0e0e86c47846efeb70bab59cc9"
-}
-
-import {
-  to = cloudflare_record.terraform_managed_resource_745f026045824dee3e3d5ccac5230201_12
-  id = "1589ca8b5998db003314eb07ce8fb95e/745f026045824dee3e3d5ccac5230201"
-}
-
-import {
-  to = cloudflare_record.terraform_managed_resource_c2368f475d9ef72770c4ef98ec174040_13
-  id = "1589ca8b5998db003314eb07ce8fb95e/c2368f475d9ef72770c4ef98ec174040"
-}
-
-import {
   to = cloudflare_record.terraform_managed_resource_ad98b9aa667b28d421300b4778ab3fb0_14
   id = "1589ca8b5998db003314eb07ce8fb95e/ad98b9aa667b28d421300b4778ab3fb0"
-}
-
-import {
-  to = cloudflare_record.terraform_managed_resource_0329cc875c4d8c9ad7ca8c71f694a290_15
-  id = "1589ca8b5998db003314eb07ce8fb95e/0329cc875c4d8c9ad7ca8c71f694a290"
 }
 
 import {
@@ -91,11 +51,6 @@ import {
 import {
   to = cloudflare_record.terraform_managed_resource_baea5707c91aad8093381e573de0754a_18
   id = "1589ca8b5998db003314eb07ce8fb95e/baea5707c91aad8093381e573de0754a"
-}
-
-import {
-  to = cloudflare_record.terraform_managed_resource_4287539ddecaef84730795be50035926_19
-  id = "1589ca8b5998db003314eb07ce8fb95e/4287539ddecaef84730795be50035926"
 }
 
 import {
@@ -116,11 +71,6 @@ import {
 import {
   to = cloudflare_record.terraform_managed_resource_58d766ab0c53f53b0bd16ae88f0ce303_23
   id = "1589ca8b5998db003314eb07ce8fb95e/58d766ab0c53f53b0bd16ae88f0ce303"
-}
-
-import {
-  to = cloudflare_record.terraform_managed_resource_744b86a49a9f615be94e7a742f7b67df_24
-  id = "1589ca8b5998db003314eb07ce8fb95e/744b86a49a9f615be94e7a742f7b67df"
 }
 
 import {
@@ -214,11 +164,6 @@ import {
 }
 
 import {
-  to = cloudflare_record.terraform_managed_resource_9764d462e5822e60e5d7b26d5116f531_3
-  id = "8e1205e94e1c8d8c5b876aac286f08bd/9764d462e5822e60e5d7b26d5116f531"
-}
-
-import {
   to = cloudflare_record.terraform_managed_resource_7e69074f51b70ca268d1f983675b847f_4
   id = "8e1205e94e1c8d8c5b876aac286f08bd/7e69074f51b70ca268d1f983675b847f"
 }
@@ -251,11 +196,6 @@ import {
 import {
   to = cloudflare_record.terraform_managed_resource_457667fb4eca0d5f4a97205cc4b4bcf6_10
   id = "8e1205e94e1c8d8c5b876aac286f08bd/457667fb4eca0d5f4a97205cc4b4bcf6"
-}
-
-import {
-  to = cloudflare_record.terraform_managed_resource_cac29c84df2bf2595eabf0e695ce9497_11
-  id = "8e1205e94e1c8d8c5b876aac286f08bd/cac29c84df2bf2595eabf0e695ce9497"
 }
 
 import {
