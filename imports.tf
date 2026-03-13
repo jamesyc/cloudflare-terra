@@ -134,11 +134,6 @@ import {
 }
 
 import {
-  to = cloudflare_record.terraform_managed_resource_a7054eadefeac35d0dddba411a31f465_27
-  id = "1589ca8b5998db003314eb07ce8fb95e/a7054eadefeac35d0dddba411a31f465"
-}
-
-import {
   to = cloudflare_record.terraform_managed_resource_ed09a192d1adaa74bee5c339047d139a_28
   id = "1589ca8b5998db003314eb07ce8fb95e/ed09a192d1adaa74bee5c339047d139a"
 }

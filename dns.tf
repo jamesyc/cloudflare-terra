@@ -242,15 +242,6 @@ resource "cloudflare_record" "terraform_managed_resource_edd8bf89d4f4bd842a8805c
   zone_id = "1589ca8b5998db003314eb07ce8fb95e"
 }
 
-resource "cloudflare_record" "terraform_managed_resource_a7054eadefeac35d0dddba411a31f465_27" {
-  content = "144.24.16.36"
-  name    = "timelinize"
-  proxied = false
-  ttl     = 1
-  type    = "A"
-  zone_id = "1589ca8b5998db003314eb07ce8fb95e"
-}
-
 resource "cloudflare_record" "terraform_managed_resource_ed09a192d1adaa74bee5c339047d139a_28" {
   content = "144.24.16.36"
   name    = "vaultwarden"
